@@ -32,4 +32,3 @@ function toReadable(n){
         }
     }
 }
-toReadable(1);
