@@ -28,4 +28,3 @@ function toReadable(n){
         }
     }
 }
-toReadable(0);
