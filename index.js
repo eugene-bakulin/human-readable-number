@@ -7,7 +7,7 @@ function toReadable(n){
             return 'zero';
         } else {
             return digitsOne[n - 1];
-        };
+        }
     } else if (String(n).length == 2) {
         if (+(String(n).charAt(0)) == 1) {
             return digitsTen[+(String(n).charAt(1))];
