@@ -1,5 +1,4 @@
 module.exports = function toReadable (n) {
-    function toReadable(n){
         const digitsOne = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
         const digitsTen = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
         const namesTen = ['twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
@@ -33,4 +32,3 @@ module.exports = function toReadable (n) {
             }
         }
     }
-}
