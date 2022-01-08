@@ -1,7 +1,7 @@
 module.exports = function toReadable (n) {
         const digitsOne = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
         const digitsTen = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
-        const namesTen = ['twenty', 'thirty', 'fourty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+        const namesTen = ['twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
         if (String(n).length == 1) {
             if (+(String(n).charAt(0)) == 0) {
                 return 'zero';
