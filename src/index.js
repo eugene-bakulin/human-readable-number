@@ -12,7 +12,7 @@ module.exports = function toReadable (n) {
             if (+(String(n).charAt(0)) == 1) {
                 return digitsTen[+(String(n).charAt(1))];
             } else if (+(String(n).charAt(1)) == 0) {
-                return namesTen[+(String(n).charAt(0)) - 1];
+                return namesTen[+(String(n).charAt(0)) - 2];
             } else {
                 return namesTen[+(String(n).charAt(0)) - 2] + ' ' + digitsOne[+(String(n).charAt(1))-1];
             }
